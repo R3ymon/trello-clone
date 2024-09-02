@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "@angular/cdk/overlay-prebuilt.css";
+/* Estiliza la barra de desplazamiento completa */
+::-webkit-scrollbar {
+  height: 15px; /* Cambia el alto de la barra horizontal */
+}
+
+/* Estiliza la parte visible (thumb) de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+  background-color: #f8f8f8ef; /* Color del thumb */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estiliza el track de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+  background-color: #298ce9; /* Color del track */
+  border-radius: 5px;
+}

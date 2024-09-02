@@ -1,0 +1,109 @@
+<div class="w-screen h-screen bg-gray-50 sm:bg-gray-50 relative">
+  <div class="absolute w-full h-full hidden sm:block">
+    <img
+      class="absolute w-96 lg:w-96 left-0 bottom-0"
+      src="/assets/images/svg/undraw_delivery_truck_vt6p.svg"
+      alt="image izquierda"
+    />
+    <img
+      class="absolute w-96 lg:w-96 right-0 bottom-0"
+      src="/assets/images/svg/undraw_multitasking_re_ffpb.svg"
+      alt="image derecha"
+    />
+  </div>
+  <div class="relative w-full sm:w-7/12 md:w-6/12 lg:w-4/12 m-auto">
+    <header class="pt-6 pb-2 flex justify-center">
+      <img
+        class="w-56"
+        src="/assets/images/png/logo-gradient-blue-trello.png"
+        alt="logo center"
+      />
+    </header>
+    <div class="bg-white rounded shadow py-4 px-6">
+      <div class="mb-4">
+        <h1 class="text-center font-semibold pt-4 pb-8">Log in to Trello</h1>
+        <form novalidate class="space-y-4">
+          <div class="relative space-y-4">
+            <input
+              placeholder="Enter email"
+              type="email"
+              class="w-full rounded bg-gray-150 border-gray-300"
+            />
+            <input
+              placeholder="Enter password"
+              type="text"
+              class="w-full rounded bg-gray-150 border-gray-300"
+            />
+          </div>
+
+          <div>
+            <app-btn [typeBtn]="'submit'">Log-In</app-btn>
+            <p class="text-gray-500 text-center py-5">OR</p>
+            <div class="space-y-4">
+              <a
+                href="#"
+                class="flex items-center justify-center w-full py-3 bg-white text-gray-700 border border-gray-300 rounded-md shadow-sm hover:bg-gray-100 transition duration-200"
+              >
+                <img
+                  src="https://www.svgrepo.com/show/355037/google.svg"
+                  alt="Google"
+                  class="w-6 h-6 mr-3"
+                />
+                Continue with Google
+              </a>
+              <!-- Continue with Microsoft -->
+              <a
+                href="#"
+                class="flex items-center justify-center w-full py-3 bg-white text-gray-700 border border-gray-300 rounded-md shadow-sm hover:bg-gray-100 transition duration-200"
+              >
+                <img
+                  src="/assets/images/png/4202105_microsoft_logo_social_social media_icon.svg"
+                  alt="Microsoft"
+                  class="w-6 h-6 mr-3"
+                />
+                Continue with Microsoft
+              </a>
+
+              <!-- Continue with Apple -->
+              <a
+                href="#"
+                class="flex items-center justify-center w-full py-3 bg-white border text-gray-700 border-gray-300 rounded-md shadow-sm hover:bg-gray-100 transition duration-200"
+              >
+                <img
+                  src="/assets/images/png/104490_apple_icon.svg"
+                  alt="Apple"
+                  class="w-6 h-6 mr-3"
+                />
+                Continue with Apple
+              </a>
+
+              <a
+                href=""
+                class="flex justify-center text-blue-500 hover:text-blue-700 hover:underline transition duration-200"
+                >Log in with SSO</a
+              >
+              <div class="border-b border-gray-300 mt-2"></div>
+              <a
+                href=""
+                class="flex justify-center text-blue-500 hover:text-blue-700 hover:underline transition duration-200"
+                >Can't log in?</a
+              >
+              <a
+                href=""
+                class="flex justify-center text-blue-500 hover:text-blue-700 hover:underline transition duration-200"
+                >Sign up for an account</a
+              >
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="flex justify-center">
+      <img
+        class="w-32 mt-4"
+        src="/assets/images/png/horizontal-logo-onecolor-neutral-atlassian.png"
+        alt="logo footer"
+      />
+    </div>
+  </div>
+</div>
